@@ -1,12 +1,14 @@
+// done with creation of cargo build with mod run()
+
 // 1
-// pub fn run(){
-    //let x:i32 = 5;
-    // fill in the blank
-    //let p: &i32 = &x;
-    //println!("The address of x is {:p}",p);
+ pub fn run(){
+    let x:i32 = 5;
+     //fill in the blank
+    let p: &i32 = &x;
+    println!("The address of x is {:p}",p);
 
 
-//}
+ }
 // 2 
 pub fn run(){
     let x: i32 = 5;
